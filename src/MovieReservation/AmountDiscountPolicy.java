@@ -9,7 +9,7 @@ public class AmountDiscountPolicy extends DiscountPolicy{
     }
 
     @Override
-    protected Money getDiscountAmount(Screening screening) {
+    public Money getDiscountAmount(Screening screening) {
         return discountAmount;
     }
 }
