@@ -2,14 +2,13 @@ package ticketoffice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 
 public class TicketOffice {
     private Long amount; // 판매 금액
     private List<Ticket> tickets = new ArrayList<>(); // 티케 목록
 
-    public TicketOffice(Long amount, Ticket tickets) {
+    public TicketOffice(Long amount, Ticket ... tickets) {
         this.amount = amount;
         this.tickets.addAll(Arrays.asList(tickets));
     }
