@@ -46,3 +46,17 @@ L
 src/rectangle/Rectangle.java,e/5/e5432800552423806ef2e6df7695939c33fd1428
 K
 src/rectangle/AnyClass.java,e/e/ee61b387414d96cf9594fb0b598dba16bf2ed518
+W
+'src/rdd_moviereservation/Screening.java,9/c/9cdd1b70adc619b3a5994b7c2c50e74ca5efb7a8
+V
+&src/rdd_moviereservation/Customer.java,f/4/f477506ae968249e69b781143d4afd51531982d4
+Y
+)src/rdd_moviereservation/Reservation.java,a/6/a602fe11a2f3eb4618bea7328adbc6a3907f0102
+S
+#src/rdd_moviereservation/Movie.java,c/d/cd59a6e951e3bb969f74086ad3fdda165dae3cd1
+S
+#src/rdd_moviereservation/Money.java,0/8/084628ccf72622d1ea3be65fed1df61c215653f7
+_
+/src/rdd_moviereservation/DiscountCondition.java,8/7/87d1e2d0e68842e74436158d84788174f3b70c3f
+W
+'src/rdd_moviereservation/MovieType.java,b/2/b2cedc6fddfe8fc0003f9a8447c65e2c403ad6b2
