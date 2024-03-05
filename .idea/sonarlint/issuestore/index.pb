@@ -60,3 +60,13 @@ _
 /src/rdd_moviereservation/DiscountCondition.java,8/7/87d1e2d0e68842e74436158d84788174f3b70c3f
 W
 'src/rdd_moviereservation/MovieType.java,b/2/b2cedc6fddfe8fc0003f9a8447c65e2c403ad6b2
+]
+-src/rdd_moviereservation/PeriodCondition.java,8/a/8a7a36775e02662909ecf800eef75cb3e2459140
+_
+/src/rdd_moviereservation/SequenceCondition.java,a/1/a1bcd63480bd40fb47bc855cf028b4398ce152e1
+a
+1src/rdd_moviereservation/AmountDiscountMovie.java,f/7/f70aa39ea55ac2325562fb66651114a5f55bd55f
+b
+2src/rdd_moviereservation/PercentDiscountMovie.java,f/b/fb96a558d3fa658c80bc736921c52bd54a1c6752
+_
+/src/rdd_moviereservation/NoneDiscountMovie.java,3/b/3b1784a3b1178ba9e147365d4ec79c54bc17cbda
