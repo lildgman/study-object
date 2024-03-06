@@ -46,7 +46,7 @@ public class ReservationAgency {
 
     private boolean checkDiscountable(Screening screening) {
         return screening.getMovie().getDiscountCondition().stream()
-                .anyMatch(condition->isDiscountable(condition,screening));
+                .anyMatch(condition->condition.isDiscountable(screening));
     }
 
 

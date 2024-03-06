@@ -55,7 +55,7 @@ public class DiscountCondition {
         return endTime;
     }
 
-    private boolean isDiscountable(Screening screening) {
+    public boolean isDiscountable(Screening screening) {
         if (type == DiscountConditionType.PERIOD) {
             return isSatisfiedByPeriod(screening);
         }
