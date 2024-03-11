@@ -3,14 +3,20 @@ package ticketoffice;
 public class TicketSeller { // 판매원, 초대장을 티켓으로 교환 or 티켓 판매 역할
     private TicketOffice ticketOffice;
 
+    public void sellTo(Audience audience) {
+        ticketOffice.plusAmount(
+                audience.setTicket(ticketOffice.getTicket())
+        );
+
+    }
+
 //    public TicketSeller(TicketOffice ticketOffice) {
 //        this.ticketOffice = ticketOffice;
 //    }
     // ticketOffice의 가시성이 private
     // 접근 가능한 public 메서드가 없으므로 외부에서 ticketOffice에 직접 접근 불가
 
-    public void sellTo(Audience audience) {
-        ticketOffice.sellTicketTo(audience);
+
     } // TicketSeller가 Audience 인터페이스에만 의존
     // TicketSeller가 buy메서드 호출
     

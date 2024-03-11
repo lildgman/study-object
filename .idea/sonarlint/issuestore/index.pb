@@ -70,3 +70,15 @@ b
 2src/rdd_moviereservation/PercentDiscountMovie.java,f/b/fb96a558d3fa658c80bc736921c52bd54a1c6752
 _
 /src/rdd_moviereservation/NoneDiscountMovie.java,3/b/3b1784a3b1178ba9e147365d4ec79c54bc17cbda
+M
+src/ticketoffice/Theater.java,b/d/bdc7b0d9520eb2c06e36f503ad7632b4128d94b1
+R
+"src/ticketoffice/TicketSeller.java,4/e/4ecd181330f5f687c7de508c0eb4b751fb0139f6
+N
+src/ticketoffice/Audience.java,7/1/71fc14393ac08f591fbfaf8e001f15737af19a3b
+I
+src/ticketoffice/Bag.java,d/1/d1cf50d8de6c94cc02f269a927e6059b194f5ed3
+R
+"src/ticketoffice/TicketOffice.java,7/5/75bd902dce33053bd321834e4ab100df9e892911
+K
+src/eventcontrol/Event.java,9/0/90ed748ef6841058b52fbf48cfd7f4bc5f5a101b

@@ -14,6 +14,10 @@ public class Audience { // 관람객
     public Long buy(Ticket ticket) {
         return bag.hold(ticket);
     }
+
+    public Long buy(Ticket ticket) {
+        return bag.setTicket(ticket);
+    }
     
     // 변경 후 Audience는 자신 가방에 초대장이 있는지 스스로 확인
     // 3자가 자신 가방을 보는것을 허용하지 않음, Audience가 Bag을 직접 처리

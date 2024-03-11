@@ -25,17 +25,25 @@ public class Bag {
         }
     }
 
-    private boolean hasInvitaion() { // 초대장 보유 여부
-        return invitation != null;
-    }   
 
     public boolean hasTicket() { // 티켓 보유 여부
         return ticket != null;
     }
 
-    private void setTicket(Ticket ticket) { // 초대장을 티켓으로 교환
-        this.ticket = ticket;
+    public Long hold(Ticket ticket) { // 초대장을 티켓으로 교환
+        if (hasInvitaion()) { // 관객에게 초대장이 있는지 확인
+            this.ticket = ticket; // 있다면 티켓을 관객 가방에 넣어줌
+            return 0L;
+        } else { // 관객에게 초대장이 없다면
+            this.ticket = ticket;
+            minusAmount(ticket.getFee()); //고객 가방에서 티켓 금액만큼 차감 후
+            return ticket.getFee();
+        }
     }
+    private boolean hasInvitaion() { // 초대장 보유 여부
+        return invitation != null;
+    }
+
 
     private void minusAmount(Long amount) { // 현금 감소
         this.amount -= amount;
